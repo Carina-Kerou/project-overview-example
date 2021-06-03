@@ -5,6 +5,20 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    text-align: center;
+  }
+}
+
 body {
   margin: 0px auto;
 }
@@ -114,4 +128,8 @@ p {
 .container {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.top-of-page {
+  margin-top: 60px;
 }
