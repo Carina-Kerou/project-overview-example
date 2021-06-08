@@ -104,11 +104,17 @@ p {
 }
 
 .btn-project {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
   background: var(--primary-color);
   color: var(--secondary-color);
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   box-shadow: var(--box-shadow);
+}
+.btn-project:hover {
+  color: white;
 }
 
 .container {
@@ -126,15 +132,22 @@ p {
   }
   h2 {
     font-size: 24px;
+    text-align: center;
+    margin: 10px;
   }
-  h1,
-  h2,
-  h3,
+
   h4 {
     text-align: center;
     margin: 10px;
   }
-  .project {
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .project-link {
     display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
